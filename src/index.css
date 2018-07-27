@@ -1,0 +1,243 @@
+html,
+body,
+#root,
+#root>div {
+  height: 100%;
+}
+.navBar{
+  padding: 2%;
+  font-family: fantasy;
+}
+.navCol{
+  background-color: rgb(212, 212, 212);
+}
+.ico{
+  width: 30px;
+  padding-bottom: 5px;
+  height: 30px;
+}
+.navTitle{
+  font-size: 30px;
+  font-weight: 800;
+}
+.StoreTitle1{
+  padding-top: 15%;
+}
+.StoreTitle{
+  color: black;
+  font-weight: 800;
+  font-size: 16px;
+}
+.StoreTitle:hover{
+  text-decoration: none;
+  font-size: 18px;
+  text-shadow: 0px -1px 10px rgb(122, 122, 122);
+  color: rgb(0, 0, 0);
+  transition: all 0.1s;
+}
+
+span{
+  color: black;
+  font-weight: 800;
+  font-size: 16px;
+}
+span:hover{
+  font-size: 18px;
+  text-shadow: 0px -1px 10px rgb(122, 122, 122);
+  color: rgb(0, 0, 0);
+  transition: all 0.1s;
+  
+}
+.bg{
+  height: 100%;
+  width: 100%;}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flexForm
+{
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(50, 161, 161);
+
+}
+.flexFormSD
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 305px;
+  height: 305px;
+  border: 5px solid rgb(44, 126, 126);
+  border-radius: 50%;
+  background-color: rgb(44, 126, 126);
+
+}
+
+.button{
+  color: white;
+  border: none;
+  border-bottom-left-radius: 100vmax;
+  border-bottom-right-radius: 100vmax;
+  width: 30%;
+  font-weight: bold;
+  background-color: rgb(45, 145, 145)
+  
+}
+.button:hover{
+  width: 80%;
+  color: rgb(50, 161, 161);
+  background-color: white;
+  transition: width 1s;
+}
+.input{
+  width: 95%;
+  border: 0px solid white;
+  border-bottom-left-radius: 100vmax;
+  border-bottom-right-radius: 100vmax;
+  text-align: center;
+
+}
+.inputDiv{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.title{
+  text-align: center;
+  padding-top: 10%;
+  font-weight: 900;
+  color: white;
+
+}
+.titleName{
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.block {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.blockCircle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(0, 12, 12);
+}
+.blockSD{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 155px;
+  border: 5px solid rgb(3, 31, 31);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+.image{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.line{
+  text-align: center;
+  width: 30%;
+  height: 50px;
+}
+.divLine{
+  text-align: center;
+}
+
+.headHov:hover{
+  border-radius: 50%;
+  box-shadow: 1px -1px 10px rgb(0, 0, 0);
+  transition: all .3s;
+}
+/*--STORE BODY--*/
+.padImage{
+  padding: 6px;
+}
+
+.padImage:hover{
+  border-radius: 50%;
+  box-shadow: 1px -1px 10px rgb(0, 0, 0);
+  transition: all .3s;
+}
+.center{
+  justify-content: center;
+  text-align: center;
+}
+.border1{
+  padding: 10px;
+}
+.sImage{
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+.sImage:hover{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.card{
+  height: 300px;
+  width: 500px;
+}
+.todayTitle{
+  color: black;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  font-family: cursive;
+}
+.todayFooter{
+  color: black;
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+  font-family: cursive;
+}
+.container1{
+  background-color: azure;
+}
+
+.butt{
+  border: 3px solid white;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top : 5%;
+  right: 10%;
+}
+.butt:hover{
+  background-color: rgb(56, 56, 56);
+  border-radius: 40%;
+  width: 33px;
+  height: 33px;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
