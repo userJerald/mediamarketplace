@@ -1,0 +1,83 @@
+@font-face{
+    font-family: Lato;
+    src: url(Lato.ttf);  
+}
+@keyframes move {
+    from {transform: translateX(-100%)}
+    to {transform: translateX(0px);}
+}
+
+@keyframes move1 {
+    from {transform: translateX(300px)}
+    to {transform: translateX(-100%);}
+}
+
+.sbar{
+    scroll-behavior: auto;  
+    background: #F9F9F9;
+    box-shadow: 1px 2px 5px rgb(216, 216, 216);
+    position: fixed;
+    width: 15em;
+    height: 100%;
+    animation-timing-function: ease-in-out;
+    animation-name: move;
+    animation-duration: .5s;
+}
+.sbaroff{
+    background: #F9F9F9;
+    box-shadow: 1px 2px 5px rgb(216, 216, 216);
+    position: fixed;
+    width: 15em;
+    left: -300px;
+    height: 100%;
+    max-height: 100vmax;
+    animation-timing-function: ease-in-out;
+    animation-name: move1;
+    animation-duration: .5s;
+}
+.nav{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;   
+}
+.nav-h{
+    height: 20%;
+    overflow: hidden;
+}
+.item{
+    bottom: 0;
+    list-style: none;
+    width: 100%;
+    padding: 10px 20px;   
+}
+.svgfill:hover path{
+    fill: #17C1BC;
+}
+.item:hover{
+    
+    background: rgba(195, 195, 195, 0.15);
+}
+.sbar .link{
+    text-decoration: none;
+    color: #585858;
+}
+.sbaroff .link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #585858;
+}
+.img:hover{
+    fill: #585858;
+}
+.footer{
+    position: fixed;
+    bottom: 4px;
+    color: rgba(165, 165, 165, 0.71);       
+    font-size: 14px;
+    text-align: center;
+}
+.vert{
+    margin: 27% 0px;
+    padding: 20px 0px;
+}

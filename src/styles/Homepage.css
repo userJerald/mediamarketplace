@@ -1,0 +1,11 @@
+.main-header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 999;
+}
+.main-body{
+    margin-top: 78px;
+    height: 100%;
+}
